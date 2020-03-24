@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E496B59C5DB13D27A20995E /* Pods_Calculate_Sum_Calculate_SumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9854D700E58179CCABA6E36 /* Pods_Calculate_Sum_Calculate_SumUITests.framework */; };
+		65FE4F06242A4B4A005E37D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE4F05242A4B4A005E37D0 /* AppDelegate.swift */; };
+		65FE4F08242A4B4A005E37D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE4F07242A4B4A005E37D0 /* SceneDelegate.swift */; };
+		65FE4F0A242A4B4A005E37D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE4F09242A4B4A005E37D0 /* ViewController.swift */; };
+		65FE4F0D242A4B4A005E37D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FE4F0B242A4B4A005E37D0 /* Main.storyboard */; };
+		65FE4F0F242A4B4C005E37D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FE4F0E242A4B4C005E37D0 /* Assets.xcassets */; };
+		65FE4F12242A4B4C005E37D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FE4F10242A4B4C005E37D0 /* LaunchScreen.storyboard */; };
+		65FE4F1D242A4B4C005E37D0 /* Calculate_SumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE4F1C242A4B4C005E37D0 /* Calculate_SumUITests.swift */; };
+		937E5D0855B2C65ED05E92CB /* Pods_Calculate_Sum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAE2C0B40BD60D0193DC3AA /* Pods_Calculate_Sum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FE4F19242A4B4C005E37D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FE4EFA242A4B4A005E37D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE4F01242A4B4A005E37D0;
+			remoteInfo = Calculate_Sum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EAE2C0B40BD60D0193DC3AA /* Pods_Calculate_Sum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculate_Sum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FE4F02242A4B4A005E37D0 /* Calculate_Sum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculate_Sum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FE4F05242A4B4A005E37D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65FE4F07242A4B4A005E37D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65FE4F09242A4B4A005E37D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65FE4F0C242A4B4A005E37D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65FE4F0E242A4B4C005E37D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65FE4F11242A4B4C005E37D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65FE4F13242A4B4C005E37D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FE4F18242A4B4C005E37D0 /* Calculate_SumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculate_SumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FE4F1C242A4B4C005E37D0 /* Calculate_SumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate_SumUITests.swift; sourceTree = "<group>"; };
+		65FE4F1E242A4B4C005E37D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66245BA65D71FC9EA842EC94 /* Pods-Calculate_Sum-Calculate_SumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculate_Sum-Calculate_SumUITests.debug.xcconfig"; path = "Target Support Files/Pods-Calculate_Sum-Calculate_SumUITests/Pods-Calculate_Sum-Calculate_SumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		802B2014F5D4B916CBC162B9 /* Pods-Calculate_Sum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculate_Sum.debug.xcconfig"; path = "Target Support Files/Pods-Calculate_Sum/Pods-Calculate_Sum.debug.xcconfig"; sourceTree = "<group>"; };
+		A9854D700E58179CCABA6E36 /* Pods_Calculate_Sum_Calculate_SumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculate_Sum_Calculate_SumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62E589194C7F0C03A76E6E5 /* Pods-Calculate_Sum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculate_Sum.release.xcconfig"; path = "Target Support Files/Pods-Calculate_Sum/Pods-Calculate_Sum.release.xcconfig"; sourceTree = "<group>"; };
+		ECB5EE84EDF927B0E85F0D82 /* Pods-Calculate_Sum-Calculate_SumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculate_Sum-Calculate_SumUITests.release.xcconfig"; path = "Target Support Files/Pods-Calculate_Sum-Calculate_SumUITests/Pods-Calculate_Sum-Calculate_SumUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FE4EFF242A4B4A005E37D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E5D0855B2C65ED05E92CB /* Pods_Calculate_Sum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FE4F15242A4B4C005E37D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E496B59C5DB13D27A20995E /* Pods_Calculate_Sum_Calculate_SumUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65FE4EF9242A4B4A005E37D0 = {
+			isa = PBXGroup;
+			children = (
+				65FE4F04242A4B4A005E37D0 /* Calculate_Sum */,
+				65FE4F1B242A4B4C005E37D0 /* Calculate_SumUITests */,
+				65FE4F03242A4B4A005E37D0 /* Products */,
+				D11AE1268322C5A4E43C98FE /* Pods */,
+				6D6250345168B2EBA4D2AF2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65FE4F03242A4B4A005E37D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FE4F02242A4B4A005E37D0 /* Calculate_Sum.app */,
+				65FE4F18242A4B4C005E37D0 /* Calculate_SumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FE4F04242A4B4A005E37D0 /* Calculate_Sum */ = {
+			isa = PBXGroup;
+			children = (
+				65FE4F05242A4B4A005E37D0 /* AppDelegate.swift */,
+				65FE4F07242A4B4A005E37D0 /* SceneDelegate.swift */,
+				65FE4F09242A4B4A005E37D0 /* ViewController.swift */,
+				65FE4F0B242A4B4A005E37D0 /* Main.storyboard */,
+				65FE4F0E242A4B4C005E37D0 /* Assets.xcassets */,
+				65FE4F10242A4B4C005E37D0 /* LaunchScreen.storyboard */,
+				65FE4F13242A4B4C005E37D0 /* Info.plist */,
+			);
+			path = Calculate_Sum;
+			sourceTree = "<group>";
+		};
+		65FE4F1B242A4B4C005E37D0 /* Calculate_SumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65FE4F1C242A4B4C005E37D0 /* Calculate_SumUITests.swift */,
+				65FE4F1E242A4B4C005E37D0 /* Info.plist */,
+			);
+			path = Calculate_SumUITests;
+			sourceTree = "<group>";
+		};
+		6D6250345168B2EBA4D2AF2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE2C0B40BD60D0193DC3AA /* Pods_Calculate_Sum.framework */,
+				A9854D700E58179CCABA6E36 /* Pods_Calculate_Sum_Calculate_SumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D11AE1268322C5A4E43C98FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				802B2014F5D4B916CBC162B9 /* Pods-Calculate_Sum.debug.xcconfig */,
+				E62E589194C7F0C03A76E6E5 /* Pods-Calculate_Sum.release.xcconfig */,
+				66245BA65D71FC9EA842EC94 /* Pods-Calculate_Sum-Calculate_SumUITests.debug.xcconfig */,
+				ECB5EE84EDF927B0E85F0D82 /* Pods-Calculate_Sum-Calculate_SumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FE4F01242A4B4A005E37D0 /* Calculate_Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FE4F21242A4B4C005E37D0 /* Build configuration list for PBXNativeTarget "Calculate_Sum" */;
+			buildPhases = (
+				129D915EB08F193E5FD47580 /* [CP] Check Pods Manifest.lock */,
+				65FE4EFE242A4B4A005E37D0 /* Sources */,
+				65FE4EFF242A4B4A005E37D0 /* Frameworks */,
+				65FE4F00242A4B4A005E37D0 /* Resources */,
+				068D666A01718D86F180DD99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calculate_Sum;
+			productName = Calculate_Sum;
+			productReference = 65FE4F02242A4B4A005E37D0 /* Calculate_Sum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FE4F17242A4B4C005E37D0 /* Calculate_SumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FE4F24242A4B4C005E37D0 /* Build configuration list for PBXNativeTarget "Calculate_SumUITests" */;
+			buildPhases = (
+				C28CDD5B4BA58CF1A43D324F /* [CP] Check Pods Manifest.lock */,
+				65FE4F14242A4B4C005E37D0 /* Sources */,
+				65FE4F15242A4B4C005E37D0 /* Frameworks */,
+				65FE4F16242A4B4C005E37D0 /* Resources */,
+				94713B8CA86C8613EE671CA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FE4F1A242A4B4C005E37D0 /* PBXTargetDependency */,
+			);
+			name = Calculate_SumUITests;
+			productName = Calculate_SumUITests;
+			productReference = 65FE4F18242A4B4C005E37D0 /* Calculate_SumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FE4EFA242A4B4A005E37D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Mayurii Gajbhiye";
+				TargetAttributes = {
+					65FE4F01242A4B4A005E37D0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					65FE4F17242A4B4C005E37D0 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 65FE4F01242A4B4A005E37D0;
+					};
+				};
+			};
+			buildConfigurationList = 65FE4EFD242A4B4A005E37D0 /* Build configuration list for PBXProject "Calculate_Sum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FE4EF9242A4B4A005E37D0;
+			productRefGroup = 65FE4F03242A4B4A005E37D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FE4F01242A4B4A005E37D0 /* Calculate_Sum */,
+				65FE4F17242A4B4C005E37D0 /* Calculate_SumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FE4F00242A4B4A005E37D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FE4F12242A4B4C005E37D0 /* LaunchScreen.storyboard in Resources */,
+				65FE4F0F242A4B4C005E37D0 /* Assets.xcassets in Resources */,
+				65FE4F0D242A4B4A005E37D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FE4F16242A4B4C005E37D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		068D666A01718D86F180DD99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum/Pods-Calculate_Sum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum/Pods-Calculate_Sum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum/Pods-Calculate_Sum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		129D915EB08F193E5FD47580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculate_Sum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94713B8CA86C8613EE671CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum-Calculate_SumUITests/Pods-Calculate_Sum-Calculate_SumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum-Calculate_SumUITests/Pods-Calculate_Sum-Calculate_SumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calculate_Sum-Calculate_SumUITests/Pods-Calculate_Sum-Calculate_SumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28CDD5B4BA58CF1A43D324F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculate_Sum-Calculate_SumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FE4EFE242A4B4A005E37D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FE4F0A242A4B4A005E37D0 /* ViewController.swift in Sources */,
+				65FE4F06242A4B4A005E37D0 /* AppDelegate.swift in Sources */,
+				65FE4F08242A4B4A005E37D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FE4F14242A4B4C005E37D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FE4F1D242A4B4C005E37D0 /* Calculate_SumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FE4F1A242A4B4C005E37D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE4F01242A4B4A005E37D0 /* Calculate_Sum */;
+			targetProxy = 65FE4F19242A4B4C005E37D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FE4F0B242A4B4A005E37D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FE4F0C242A4B4A005E37D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65FE4F10242A4B4C005E37D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FE4F11242A4B4C005E37D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FE4F1F242A4B4C005E37D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65FE4F20242A4B4C005E37D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FE4F22242A4B4C005E37D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802B2014F5D4B916CBC162B9 /* Pods-Calculate_Sum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calculate_Sum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Calculate-Sum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FE4F23242A4B4C005E37D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62E589194C7F0C03A76E6E5 /* Pods-Calculate_Sum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calculate_Sum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Calculate-Sum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65FE4F25242A4B4C005E37D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66245BA65D71FC9EA842EC94 /* Pods-Calculate_Sum-Calculate_SumUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calculate_SumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Calculate-SumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calculate_Sum;
+			};
+			name = Debug;
+		};
+		65FE4F26242A4B4C005E37D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB5EE84EDF927B0E85F0D82 /* Pods-Calculate_Sum-Calculate_SumUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calculate_SumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.mac.Calculate-SumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calculate_Sum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FE4EFD242A4B4A005E37D0 /* Build configuration list for PBXProject "Calculate_Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FE4F1F242A4B4C005E37D0 /* Debug */,
+				65FE4F20242A4B4C005E37D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FE4F21242A4B4C005E37D0 /* Build configuration list for PBXNativeTarget "Calculate_Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FE4F22242A4B4C005E37D0 /* Debug */,
+				65FE4F23242A4B4C005E37D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FE4F24242A4B4C005E37D0 /* Build configuration list for PBXNativeTarget "Calculate_SumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FE4F25242A4B4C005E37D0 /* Debug */,
+				65FE4F26242A4B4C005E37D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FE4EFA242A4B4A005E37D0 /* Project object */;
+}
