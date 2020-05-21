@@ -4,21 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-Calculate_Sum-Calculate_SumUITests.xcscheme</key>
+		<key>Pods-ImageTransaction-ImageTransactionUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-Calculate_Sum.xcscheme</key>
+		<key>Pods-ImageTransaction.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
